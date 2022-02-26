@@ -1,0 +1,192 @@
+
+body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+header
+{
+    height: 50px;
+    background-color:rgb(7, 7, 7);
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 0 2px rgb(105, 104, 104);
+    border-bottom: 3px rgb(161, 156, 156) solid;
+}
+
+article
+{
+    margin-top: 1%;
+    background-color:  white;
+    height: 1800px;
+    width: 100%;
+}
+.logo
+{
+    width: 15%;
+    height:15%;
+    background-color: white;
+    margin:0 auto;
+    border:3px black solid;
+    float: left;
+    margin-left: 15%;
+    margin-bottom: 15%;
+}
+.logo img
+{
+    height: 100%;
+    width: 100%;
+}
+.logo:hover
+{
+    border: 3px yellow solid;
+}
+.box2
+{
+    padding-top: 7%;
+    width: 100%;
+    height: 7%;
+    position: relative;
+    background-color: white;
+}
+.block
+{
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    position: relative;
+}
+.block1
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.block1>img
+{
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
+.boxbox
+{
+    height: 2200px;
+    width: 90%;
+    border-radius: 5px ;
+    float: none;
+    margin:0 auto;
+    position: relative;
+}
+p
+{
+    left: 5px;
+    top: -13px;
+    position: relative;
+}
+footer
+{
+    padding-top: 10%;
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    padding-bottom: 0%;
+    padding: 10%;
+    position: relative;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+footer>h4
+{
+    color: white;
+}
+footer>h2
+{
+    color: white;
+    text-align: center;
+}
+
+iframe
+{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    top: 17%;
+    left: 5%;
+}
+.menu
+{
+    position: absolute;
+    height: 80%;
+    width: 50%;
+    right: 0px;
+    float: left;
+    top: 10%;
+}
+.boxcon
+{
+    background-color: white;
+    margin: 1%;
+    float: left;
+    border-radius: 5px;
+    width: 45%;
+    text-align: center;
+}
+footer>iframe
+{
+    position: absolute;
+    top: 65%;
+    height: 30%;
+    width: 90%;
+    float: none;
+}
+.boxcon:hover
+{
+    box-shadow: 0 0 7px red;
+}
+@media screen and (min-width:600px) 
+{
+    .logo
+    {
+        height: 40%;
+        width: 10%;
+        margin-left: 5%;
+        margin-bottom: 2%;
+    }
+    .box2
+    {
+        margin: 0 auto;
+        padding-top: 3%;
+    }
+    .boxcon
+    {
+        height: 50%;
+        width: 20%;
+        font-size: 80%;
+        margin-top: 4%;
+        margin-left: 3%;
+    }
+    footer>iframe
+    {
+        height: 30%;
+        width: 76%;
+    }
+}
+@media screen and (min-width:800px) 
+{
+    .boxcon
+    {
+        height: 40%;
+        width: 20%;
+    }
+    .menu
+    {
+        top: 10%;
+        right: 0%;
+        height: 90%;
+        width: 30%;
+    }
+}
